@@ -1,0 +1,71 @@
+body
+{
+	height:auto;
+	background-color:#000000;
+	color: #79D6F3;
+	text-align: center;
+	vertical-align:center;
+	font-family: helvetica;
+	padding:0px;
+}
+
+#title
+{
+	font-size: 30px;
+	font-weight:bold;
+	font-family: helvetica;
+	padding:0px;
+	
+}
+
+
+.ButtonStart
+{
+  display: inline-block;
+  padding: 15px 25px;
+  font-size: 24px;
+  cursor: pointer;
+  font-family:helvetica;
+  font-weight:bold;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #000000;
+  background-color: #79D6F3;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 10px #6ABAD3;
+}
+
+.ButtonStart:hover {background-color: #7FE0FE}
+
+.ButtonStart:active 
+{
+  background-color: #7FE0FE;
+  box-shadow: 0 5px #6ABAD3;
+  transform: translateY(4px);
+}
+
+.speech-bubble {
+	position: relative;
+	background: #79D6F3;
+	border-radius: .4em;
+	font-style: helvetica;
+	font-weight:bold;
+	font-size: 16px;
+}
+
+.speech-bubble:after {
+	content: '';
+	position: absolute;
+	bottom: 0;
+	left: 50%;
+	width: 0;
+	height: 0;
+	border: 28px solid transparent;
+	border-top-color: #79D6F3;
+	border-bottom: 0;
+	border-right: 0;
+	margin-left: -14px;
+	margin-bottom: -28px;
+}
