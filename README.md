@@ -7,7 +7,7 @@ Contrbutor:
 - Philippe Vo
 - Zejun Zhang
 
-# Framework and Database
+### Framework and Database
 - Framework: Flask 
 - Database:  Firebase
 
